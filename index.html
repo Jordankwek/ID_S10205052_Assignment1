@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jordan's Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="normalise.css" type="text/css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baskervville&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+
+<body>
+    <section class="head-container">
+
+        <button class="about-btn" onclick="window.location.href='index.html';">
+            Portfolio
+        </button>
+
+        <button class="about-btn" onclick="window.location.href='Page2.html'">
+            Projects
+        </button>
+
+        <button class="about-btn" onclick="window.location.href='Page3.html'">
+            My Skills
+        </button>
+
+    </section>
+    <section class="about-container">
+        <div class="split">
+            <img src="portfolio-bg.png" alt="background">
+        </div>
+        <div class="click-more">
+            <a href="#go-image">Click Here For More Info</a>
+        </div>
+        <div class="info-container">
+            <h1>Jordan's Portfolio</h1>
+            <img src="Profilepic.jpg" id="go-image" alt="Profile picture">
+            <p>My name is Jordan Kwek, this is my Interective Development
+                assignment which is about a portfolio. Let me tell you something about those buttons at the top part of
+                the screen. To the right, the circular button brings you back to the home page which shows
+                you the various projects that I have completed. Of course, those projects aren't
+                actually mine. Next to it is the about me page which you are currently looking
+                at. The my skills button shows you some of my skillset to impress you. Last but not
+                least is the button which allows you to contact me. :)
+            </p>
+        </div>
+        <div class="connect-heading">
+            <h1>To Connect</h1>
+        </div>
+        <div class="connect-container">
+            <div class="social-container">
+                <h2>Social Media</h2>
+                <div class="sm-item">
+                    <a href="https://www.instagram.com/_koroski/?hl=en" target="_blank"><img src="IGlogo.png"
+                            alt="instagram"></a>
+                    <a href="https://www.facebook.com/profile.php?id=100056051739221" target="_blank"><img
+                            src="fblogo.png" alt="Facebook"></a>
+                </div>
+            </div>
+            <div class="form-container">
+                <form>
+                    <h2>Contact Details</h2>
+                    <label for="name">Enter Name</label><br>
+                    <input type="text" class="form-item" name="name" id="name" required><br><br>
+                    <label for="email">Enter Email</label><br>
+                    <input type="email" class="form-item" name="email" id="email" required><br><br>
+                    <label for="male">Gender</label><br><br>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label><br>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+
+                    <input type="submit" id="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+
+
+    </section>
+</body>
+
+</html>

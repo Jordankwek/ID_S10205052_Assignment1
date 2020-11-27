@@ -1,0 +1,275 @@
+body{
+    background-color:rgb(241, 241, 199);
+    font-family: 'Baskervville', Arial, serif;
+}
+
+.head-container{
+    background-color: black;
+    height: 90px;
+    border-style: solid;
+    text-align: center;
+    
+}
+ 
+button{
+    height: 30px;
+    position: relative;
+    margin: 30px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: whitesmoke; 
+}
+
+.about-container{
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+}
+
+.about-container h1{
+    font-size: 45px;
+}
+
+.split img{
+    position: relative;
+    left: 8%;
+    width: 75%;
+    padding: 1%;
+}
+
+.click-more{
+    position: relative;
+    width: 25%;
+    text-align: center;
+    left: 37%;
+    background-color:white;
+    color: black;
+    height: auto;
+    border-style: solid;
+}
+
+.info-container{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.info-container img{
+    border-radius: 100%;
+    width: 30%;
+}
+
+.info-container p{
+    position: relative; 
+    left: 24%;
+    width: 50%;
+    height: auto;
+}
+
+.connect-heading{
+    text-align: center;
+    width: 100%;
+    height: auto;
+    border-style: solid;
+    background-color: black;
+    color: white
+}
+
+.page-container{
+    display: flex;
+    height: 100%;
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+.page-container h1{
+    text-align: center;
+    width: 100%;
+}
+ 
+.connect-container{
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    left: 1%;
+    padding-bottom: 3%;
+}
+
+.social-container{
+    text-align: center;
+    width: 100%;
+
+}
+.social-container h2 {
+    font-size: 40px;
+}
+
+.sm-item img{
+    position: relative;
+    right: 1%;
+    width: 4%;
+    margin-left:2%;
+}
+
+.form-container{
+    text-align: center;
+}
+
+ 
+.proj-image{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+.img-item{
+    display: flex;
+    flex-direction: row;
+    border-style: solid;
+    flex-basis: 33%;
+    flex-grow: 1;
+    max-width: 100%;
+}
+
+.img-item img{
+    max-width: 100%;
+    height: 100%;
+}
+
+
+.split{
+    flex-basis: 40%;
+    align-self: center;
+    height: 100%;
+    margin: 5px;
+    margin-left: 5%;
+}
+
+.split p{
+    width: 80%;
+    align-self: center;
+    font-size: 1rem;  
+}
+
+.skillset-container{
+    border-style: solid;
+    text-align: center;
+
+}
+
+.skill-container{
+
+    height: 100%;
+    margin: 3%;
+
+}
+
+.skill-item{
+    position: relative;
+    text-align: left;
+    font-size: 1.5em;
+    left: 41%;
+}
+
+.skill-container img{
+    height: 300px;
+}
+
+
+.form-item{
+    position: relative;
+    left: 4%;
+    width: 60%;
+}
+
+#submit{
+    position: relative;
+    left: 3%;
+    width: 88%;
+}
+
+[for="message-box"]{
+    position: relative;
+    bottom: 95px;
+}
+
+@media (max-width: 726px){
+    
+    .head-container{
+        height: auto;
+        width: 100%;
+    }
+
+    .split img{
+        width: 90%;
+        left: -1%;
+    }
+
+    .info-container p{
+        width: 80%;
+        left: 10%;
+    }
+
+    .click-more{
+        width: 50%;
+        left: 25%;
+    }
+
+    .sm-item img{
+        width: 10%;
+    }
+
+    button{
+        padding: 5px;
+        width: 90px;
+        font-size: 15px;
+        margin: 10px;
+    }
+    
+    .page-container{
+        font-size: 25px;
+    }
+ 
+
+    .img-item{
+        flex-direction: column;
+        width: 100%;
+        flex-basis: 50%;
+        
+    }
+ 
+    .img-item img{
+        
+        width: 100%;
+    }
+
+    .about-container{
+        flex-direction: column;
+
+    }
+    .split{
+        width: 100%;
+        text-align: center;
+    }
+
+    .skillset-container{
+        flex-direction: column;
+    }
+    .skill-item{
+        text-align: center;
+        left: 1%;
+    }
+
+    .contact-container{
+        flex-direction: column;
+    }
+
+
+    
+
+}
