@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color:rgb(241, 241, 199);
     font-family: 'Baskervville', Arial, serif;
@@ -81,13 +85,12 @@ button{
 .page-container{
     display: flex;
     height: 100%;
-    text-align: center;
-    margin-top: 3%;
 }
 
 .page-container h1{
     text-align: center;
     width: 100%;
+    font-size: 45px;
 }
  
 .connect-container{
@@ -122,23 +125,15 @@ button{
  
 .proj-image{
     width: 100%;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
-    
-    
+    flex-direction: row;
 }
 .img-item{
-    display: flex;
-    flex-direction: row;
-    border-style: solid;
-    flex-basis: 33%;
-    flex-grow: 1;
-    max-width: 100%;
-}
-
-.img-item img{
-    max-width: 100%;
-    height: 100%;
+    display: inline;
+    height: auto;
+    width: 32.9%;
+    border: 2px solid black
 }
 
 
@@ -174,6 +169,14 @@ button{
     max-width: 100%;
     background-color: #fff;
     flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: grey;
 }
 
 .flex-item {
@@ -255,15 +258,9 @@ button{
 
     .img-item{
         flex-direction: column;
-        width: 100%;
-        flex-basis: 50%;
-        
+        width: 100%;        
     }
- 
-    .img-item img{
-        
-        width: 100%;
-    }
+
 
     .skill-container img{
         width: 95%;
