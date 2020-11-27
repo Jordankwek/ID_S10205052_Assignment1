@@ -7,6 +7,12 @@ Before coming up with the codes, I came up with a wireframe which was designed u
 Link : https://xd.adobe.com/view/42e16227-816b-4cd9-9d2b-0fc9ecea163a-17b2/
 
 I coded the website before moving on to the media query so that my website can fit into different screen sizes.
+
+As a employee, I would use this website for job interviews that I attend to impress my employers so as to stand out from the others
+
+As an employer, I would use this website to get to know more about the interviewee so as to know their personality and skills to know if they suit the profession that they are currently interviewing for
+
+As a 
 ## Features
   - In the heading: (After clicking on the buttons)
 1)  Portfolio button - brings user back to the home page
@@ -55,3 +61,10 @@ The photos used in this site were obtained from:
 6)https://www.google.com/search?tbs=simg:CAQSgwIJirXkrspKepIa9wELELCMpwgaYApeCAMSJja8Ab0BvwEz4QG-A7oC8AjiAaM0kDS3KLsowT3oNr4omj26KMA9GjAiN_1393-xIcGEfKFIFkUnJag52MP2-saV5c1-Et20htKSzOTKAGCj5zv76pI6scXQgBAwLEI6u_1ggaCgoICAESBNCLtKMMCxCd7cEJGnIKGwoIdmVydGljYWzapYj2AwsKCS9hLzRoaDNwMAodCgpob3Jpem9udGFs2qWI9gMLCgkvYS8ybXF2emMKGwoIbGFuZ3VhZ2XapYj2AwsKCS9qLzJzaF95NAoXCgVjcm9zc9qliPYDCgoIL20vMDIyY2gM&q=facebook+logo&tbm=isch&sa=X&ved=2ahUKEwivsIr7up3tAhXGdCsKHauCCuMQwg4oAHoECBAQMA
 7)https://www.google.com/url?sa=i&url=https%3A%2F%2Fwebgradients.com%2F&psig=AOvVaw0jLNluonZQ38DZylCOtCWo&ust=1606385286702000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjXj9i5ne0CFQAAAAAdAAAAABAD
 8)https://www.google.com/url?sa=i&url=https%3A%2F%2Fuxdesign.cc%2Fthe-ultimate-product-design-portfolio-checklist-36c0f50f0bc1&psig=AOvVaw0ksVWcLtON68qx_qYDsQTM&ust=1606528624286000&source=images&cd=vfe&ved=2ahUKEwjW_4XRz6HtAhU-9zgGHfeDALwQjRx6BAgAEAc
+9)https://www.google.com/url?sa=i&url=https%3A%2F%2Fcreate.adobe.com%2F2020%2F10%2F13%2Fmake-a-product-label-with-adobe-illustrator.html&psig=AOvVaw1VzPUYuU_uY8_jWEKOA6FE&ust=1606550494866000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOC0mY6hou0CFQAAAAAdAAAAABAD
+10)https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pcmag.com%2Fpicks%2Fthe-best-graphic-design-software&psig=AOvVaw2rQaGE6kaABG9ELRQ9alUB&ust=1606550803790000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCNjs4aCiou0CFQAAAAAdAAAAABAD
+11)https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAdobe_Dreamweaver&psig=AOvVaw20h3jnOR5YrcBZdr0TkXEQ&ust=1606550838894000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOCS2bGiou0CFQAAAAAdAAAAABAD
+12)https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAdobe_XD_CC_icon.svg&psig=AOvVaw1g29JFnjAoUgjoJsKvYaGa&ust=1606550875202000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLjN-MKiou0CFQAAAAAdAAAAABAD
+13)https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.wikimedia.org%2Fwiki%2FFile%3AAdobe_InCopy_CC_icon_(2020).svg&psig=AOvVaw1NR5m7Cn3MtU3zCdICyD5u&ust=1606550894447000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCICpi8yiou0CFQAAAAAdAAAAABAD
+14)https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FAdobe_InDesign&psig=AOvVaw1WccVAaojy5J25hokTZoEV&ust=1606550930994000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLix1N-iou0CFQAAAAAdAAAAABAD
+15)https://www.google.com/url?sa=i&url=https%3A%2F%2Fpetapixel.com%2F2020%2F06%2F01%2Fadobe-releases-new-photoshop-logo-as-part-of-evolving-band-identity%2F&psig=AOvVaw3iu7bsA98okgFMhyYCwm9K&ust=1606550996785000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPD2u_6iou0CFQAAAAAdAAAAABAD

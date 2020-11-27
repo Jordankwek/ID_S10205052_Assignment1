@@ -48,6 +48,8 @@ button{
     color: black;
     height: auto;
     border-style: solid;
+    margin-top: 1%;
+    margin-bottom: 1%;
 }
 
 .info-container{
@@ -80,9 +82,7 @@ button{
     display: flex;
     height: 100%;
     text-align: center;
-    border-style: solid;
-    border-color: black;
-    
+    margin-top: 3%;
 }
 
 .page-container h1{
@@ -157,27 +157,43 @@ button{
 }
 
 .skillset-container{
-    border-style: solid;
     text-align: center;
-
 }
 
 .skill-container{
+   padding-top: 1%; 
+}
 
+.container{
     height: 100%;
     margin: 3%;
-
+}
+    
+.container {
+    display: flex;
+    max-width: 100%;
+    background-color: #fff;
+    flex-wrap: wrap;
 }
 
-.skill-item{
-    position: relative;
-    text-align: left;
-    font-size: 1.5em;
-    left: 41%;
+.flex-item {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 25%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(241, 241, 199);
 }
 
-.skill-container img{
-    height: 300px;
+.flex-img img {
+    width: 120px;
+    height: auto;
+    max-width: 100%;
+    border-radius: 20px;
+}
+
+.flex-info {
+    margin-top: auto;
 }
 
 
@@ -218,6 +234,7 @@ button{
     .click-more{
         width: 50%;
         left: 25%;
+        margin-top: 5%;
     }
 
     .sm-item img{
@@ -248,22 +265,25 @@ button{
         width: 100%;
     }
 
+    .skill-container img{
+        width: 95%;
+        left: 1%;
+    }
+
     .about-container{
         flex-direction: column;
-
     }
+
+
     .split{
         width: 100%;
         text-align: center;
     }
 
-    .skillset-container{
-        flex-direction: column;
+    .flex-item {
+        flex: 1 21%;
     }
-    .skill-item{
-        text-align: center;
-        left: 1%;
-    }
+
 
     .contact-container{
         flex-direction: column;
