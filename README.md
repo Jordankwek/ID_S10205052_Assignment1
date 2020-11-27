@@ -3,16 +3,25 @@
 This project is essentially about building a website which will be used for my job interviews. It will introduce myself to my future employers by showcasing some of my achievements, projects and my personal traits so as to make myself stand out from the other prospective interviewees
 
 ## Design Process
+This website is designed to look simple so that the users will not get lost trying to navigate through the website. 
+They will be able to get information that they require easily
+
+The skills are represented by logos as it allows the user to understand them easily instead of cracking their heads to correctly recognise the skills that are uncommon.
+
+The large images that are found on the main page(about me) and page 3(My skills) are used to represent the content that the users will see in that page. This is done so that the users can easily identify which page they are on
+
 Before coming up with the codes, I came up with a wireframe which was designed using adobe XD
 Link : https://xd.adobe.com/view/42e16227-816b-4cd9-9d2b-0fc9ecea163a-17b2/
 
 I coded the website before moving on to the media query so that my website can fit into different screen sizes.
 
+I used flexboxes for some parts to make the website responsive
+
 As a employee, I would use this website for job interviews that I attend to impress my employers so as to stand out from the others
 
-As an employer, I would use this website to get to know more about the interviewee so as to know their personality and skills to know if they suit the profession that they are currently interviewing for
+As an employer, I would use this website to get to know more about the interviewee so as to know their personality and skills to know if they suit the profession that they are currently interviewing for.
 
-As a 
+
 ## Features
   - In the heading: (After clicking on the buttons)
 1)  Portfolio button - brings user back to the home page
@@ -32,7 +41,7 @@ As a
   - In all pages (Forms)
   1) Facebook logo - brings user to facebook page
   2) Instagram logo - brings user to instagram page
-  3) Form - Allows user to find out more about the person who created the portfolio
+  3) Form - Allows user to find out more about the person who created the portfolio. 
 
 Features left to implement
 - page for achievements 
@@ -48,6 +57,7 @@ Go to the "Find More" page
 Try to submit the empty form and verify that an error message about the required fields appears
 Try to submit the form with an invalid email address and verify that a relevant error message appears
 Try to submit the form with all inputs valid and verify that a success message appears.
+The user cannot submit a name with special characters. If done so, users will be prompted to submit another name with the correct pattern
 
 ## Credits
 
